@@ -22,3 +22,12 @@ const backpack = {
 };
 
 console.log("The backpack object:", backpack);
+//Dotnotion
+console.log("The pocketNum value", backpack.pocketNum);
+console.log("The strapLength Left", backpack.strapLength.left);
+//Bracket notation
+console.log("The volume", backpack["volume"]);
+//Bracket notation, assigning a variable and using the variable in the console.log bracket notation 
+let colorQuery = "color";
+console.log("The colour value:", backpack[colorQuery]);
+
