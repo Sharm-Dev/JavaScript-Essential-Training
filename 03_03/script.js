@@ -20,3 +20,11 @@ const backpack = {
     this.strapLength.right = lengthRight;
   },
 };
+
+/* Cant do this as the backpack object is assigned to a const variable - 
+Assignment to constant variable.*/
+backpack = 5
+
+//You can change the contents in the backpack object
+backpack.volume = 50;
+console.log(backpack.volume)
